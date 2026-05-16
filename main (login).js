@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (user === correctUser && pass === correctPass) {
             alert("Access granted!\nWelcome " + user + "!");
+            window.location.href = "dashboard.html";
         }
         else {
             alert("Access denied!\nIncorrect username and/or password.");
