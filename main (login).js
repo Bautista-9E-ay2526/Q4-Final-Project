@@ -1,6 +1,6 @@
 //Login details
-const correctUser = "#####";
-const correctPass = "#####";
+const correctUser = "Group6";
+const correctPass = "143MSPASCO";
 
 //Login button
 document.addEventListener("DOMContentLoaded", () => {
